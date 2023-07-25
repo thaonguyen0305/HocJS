@@ -16,8 +16,8 @@ document.write('<br/>')
 document.write('<br/>')
 document.write('Bài tập 2')
 document.write('<br/>')
-let width = 10
-let height = 20
+let width = 10;
+let height = 20;
 let z = width * height
 document.write('Area= '+ z)
 

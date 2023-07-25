@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Amount</th>
+            <th>From Currency</th>
+            <th>To Currency</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><input type="number" id="amount"></td>
+            <td>
+                <select name="" id="from">
+                    <option value="23000">VND</option>
+                    <option value="1">USD</option>
+                    <option value="0.8">EUR</option>
+                    <option value="142">JPA</option>
+                </select>
+            </td>
+            <td>
+                <select name="" id="to">
+                    <option value="23000">VND</option>
+                    <option value="1">USD</option>
+                    <option value="0.8">EUR</option>
+                    <option value="142">JPA</option>
+                </select>
+            </td>
+            <td>
+                <button onclick="convertMoney()">Convert</button>
+            </td>
+        </tr>
+    </table>
+    <p id="result"></p>
+    <script src="appcdtt.js"></script>
+</body>
+</html>
